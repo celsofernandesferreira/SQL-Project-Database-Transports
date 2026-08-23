@@ -21,8 +21,8 @@ During development, several SQL queries were created to answer the real-world ne
 
 #### 1. Finance Department: Revenue Consolidation
 To prevent the financial board from manually summing values, a permanent **VIEW** was created to calculate the absolute global revenue. This query sums onboard ticket revenue, the value paid by customers and entities (State/City Hall) for transit passes, and virtual wallet (GuimaFlex) top-ups.
-> **[<img width="1035" height="654" alt="Total Faturado" src="https://github.com/user-attachments/assets/f4efc834-2834-4016-8e61-ed2c04adcc4b" />
-]**
+> **<img width="1035" height="654" alt="Total Faturado" src="https://github.com/user-attachments/assets/f4efc834-2834-4016-8e61-ed2c04adcc4b" />
+**
 
 Strict mathematical date filtering (`>=` and `<`) was also implemented to audit specific billing months (e.g., January 2026), avoiding common timezone errors associated with the `BETWEEN` command.
 > **[DRAG AND DROP THE "Carregamentos mes de janeiro.png" IMAGE HERE]**
