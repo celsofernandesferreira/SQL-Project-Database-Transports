@@ -24,21 +24,26 @@ To prevent the financial board from manually summing values, a permanent **VIEW*
 > <img width="1032" height="653" alt="Total Faturado" src="https://github.com/user-attachments/assets/2904a211-ef24-4f58-baeb-ded5fc2b0493" />
 
 Strict mathematical date filtering (`>=` and `<`) was also implemented to audit specific billing months (e.g., January 2026), avoiding common timezone errors associated with the `BETWEEN` command.
-> **[DRAG AND DROP THE "Carregamentos mes de janeiro.png" IMAGE HERE]**
+> <img width="789" height="652" alt="Carregamentos mes de janeiro" src="https://github.com/user-attachments/assets/f66d812b-4ace-4e8d-b362-9c2847eb878a" />
+
 
 #### 2. Customer Support & Operations (Helpdesk)
-The system anticipates operational needs, such as identifying customers transitioning age brackets (from Under-18 to University/Under-23), by cross-referencing their birth date with the card typology using a `JOIN`.
-> **[DRAG AND DROP THE "passar de um sub 18 para um sub 23.png" IMAGE HERE]**
+The system anticipates operational needs, such as identifying customers transitioning age brackets (from Under-18 to Under-23), by cross-referencing their birth date with the card typology using a `JOIN`.
+> <img width="790" height="656" alt="passar de um sub 18 para um sub 23" src="https://github.com/user-attachments/assets/66d2a296-4fe5-4fb6-b613-237ad5cf01a3" />
+
 
 Using advanced `LEFT JOIN` operations, the database can be audited to find structural anomalies, such as registered passengers who do not have any associated card or whose card is currently inactive.
-> **[DRAG AND DROP THE "Descobrir Passageiro com cartao inativo.png" IMAGE HERE]**
+> <img width="786" height="658" alt="Descobrir Passageiro com cartao inativo" src="https://github.com/user-attachments/assets/7667c791-0136-4293-8a5b-6949f42ba941" />
+
 
 For marketing campaigns or quick auditing, a Top 10 analysis of the largest top-ups in the GuimaFlex virtual wallet was created using descending order and result limits.
-> **[DRAG AND DROP THE "Descobrir guimaflex com mais valor.png" IMAGE HERE]**
+> <img width="1033" height="655" alt="Descobrir guimaflex com mais valor" src="https://github.com/user-attachments/assets/693ca0a4-7c8f-4d74-909c-af419c310ac2" />
+
 
 #### 3. Data Quality
 To combat manual data entry errors by operators, string normalization functions (such as `UPPER()`) were applied alongside aggregation functions. This ensures that metrics like ticket types are grouped correctly regardless of case sensitivity issues during manual input.
-> **[DRAG AND DROP THE "Correcão dos bilhetes.png" IMAGE HERE]**
+> <img width="962" height="656" alt="Correcão dos bilhetes" src="https://github.com/user-attachments/assets/7f2779e6-b843-4773-a31e-e544af240447" />
+
 
 ### 🛠️ Technologies Used
 * **Database:** SQLite
