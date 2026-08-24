@@ -25,6 +25,10 @@ During development, several SQL queries were created to answer the real-world ne
 To prevent the financial board from manually summing values, a permanent **VIEW** was created to calculate the absolute global revenue. This query sums onboard ticket revenue, the value paid by customers and entities (State/City Hall) for transit passes, and virtual wallet (GuimaFlex) top-ups.
 > <img width="1032" height="653" alt="Total Faturado" src="https://github.com/user-attachments/assets/2904a211-ef24-4f58-baeb-ded5fc2b0493" />
 
+View
+<img width="1035" height="659" alt="A Criar uma view para Ver o total Faturado de forma facil" src="https://github.com/user-attachments/assets/e0c2c898-59a3-4208-852e-1d684261eb3c" />
+
+
 Strict mathematical date filtering (`>=` and `<`) was also implemented to audit specific billing months (e.g., January 2026), avoiding common timezone errors associated with the `BETWEEN` command.
 > <img width="789" height="652" alt="Carregamentos mes de janeiro" src="https://github.com/user-attachments/assets/f66d812b-4ace-4e8d-b362-9c2847eb878a" />
 
@@ -83,6 +87,11 @@ Durante o desenvolvimento, foram criadas consultas SQL para responder a necessid
 #### 1. Departamento Financeiro: Consolidação de Receitas
 Para evitar que a direção financeira tenha de somar valores manualmente, foi criada uma **VIEW** permanente que calcula a faturação global absoluta. Esta consulta soma a receita dos bilhetes de bordo, o valor pago por clientes e entidades (Estado/Câmara) nos passes, e os carregamentos de saldo avulso (GuimaFlex).
 > <img width="1032" height="653" alt="Total Faturado" src="https://github.com/user-attachments/assets/2904a211-ef24-4f58-baeb-ded5fc2b0493" />
+
+
+View 
+<img width="1035" height="659" alt="A Criar uma view para Ver o total Faturado de forma facil" src="https://github.com/user-attachments/assets/41d99ac2-dbd2-423b-84f5-4775b53f4b8e" />
+
 
 Também foi implementada a filtragem matemática rigorosa por datas (`>=` e `<`) para auditar meses específicos de faturação (ex: Janeiro 2026), evitando erros de fuso horário comuns no comando `BETWEEN`.
 > <img width="789" height="652" alt="Carregamentos mes de janeiro" src="https://github.com/user-attachments/assets/f66d812b-4ace-4e8d-b362-9c2847eb878a" />
