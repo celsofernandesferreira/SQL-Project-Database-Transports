@@ -14,7 +14,9 @@ This project consists of the design and implementation of a relational database 
 ### 🗂️ Database Structure (ERD)
 The system is composed of 5 interconnected tables that mirror the company's daily operations: `Clientes` (Customers), `Cartoes` (Cards), `Carregamentos` (Top-ups), `GuimaFlex` (Virtual Wallet), and `Bilhetes` (Tickets).
 
-> **[DRAG AND DROP YOUR ERD IMAGE HERE]**
+> <img width="1461" height="931" alt="ERD" src="https://github.com/user-attachments/assets/1deecdd2-cceb-4795-908e-def9ab9271e2" />
+<img width="732" height="786" alt="erd 2" src="https://github.com/user-attachments/assets/93cbb39f-de7c-42e3-971e-82e0dea313bd" />
+
 
 ### 💼 Business Cases Solved (Business Queries)
 During development, several SQL queries were created to answer the real-world needs of various company departments:
