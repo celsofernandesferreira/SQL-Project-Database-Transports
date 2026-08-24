@@ -47,10 +47,12 @@ To combat manual data entry errors by operators, string normalization functions 
 
 #### 4. Data Exploration and Statistics
 To provide quick metrics to management, relational grouping queries were created. It is possible to quickly identify the volume of active cards circulating grouped by typology (Normal, University, Pensioner, etc.), which is essential for managing plastic card stocks.
-> **[ARRASTA AQUI O PRINT "Captura de ecrã 2026-08-11 133455_2.png"]**
+> <img width="1037" height="660" alt="Captura de ecrã 2026-08-11 133455" src="https://github.com/user-attachments/assets/392b5f53-fcb0-45a8-af54-33fdcffebc7a" />
+
 
 A volume analysis per customer was also developed, cross-referencing demographic data with card issuance to detect which users have the most transport titles associated with their profile.
-> **[ARRASTA AQUI O PRINT "Captura de ecrã 2026-08-11 131835_2.png"]**
+> <img width="1036" height="656" alt="Captura de ecrã 2026-08-11 131835" src="https://github.com/user-attachments/assets/fb008429-2867-426a-b1a8-35f8f46f6741" />
+
 
 
 ### 🛠️ Technologies Used
@@ -101,10 +103,12 @@ Para combater erros de introdução manual de dados pelos operadores, foram apli
 
 #### 4. Exploração de Dados e Estatística
 Para fornecer métricas rápidas à gestão, foram criadas consultas de agrupamento relacional. É possível identificar rapidamente o volume de cartões ativos a circular agrupados por tipologia (Normal, Universitário, Reformado, etc.), essencial para a gestão de *stocks* de plásticos.
-> **[COPIA AQUI O CÓDIGO DA IMAGEM 133455_2 QUE ARRASTASTE LÁ EM CIMA NA VERSÃO INGLESA]**
+> <img width="1037" height="660" alt="Captura de ecrã 2026-08-11 133455" src="https://github.com/user-attachments/assets/c10b3d59-802c-437d-88a6-0662c60db990" />
+
 
 Foi também desenvolvida uma análise de volume por cliente, cruzando os dados demográficos com a emissão de cartões para detetar quais os utilizadores com mais títulos de transporte associados ao seu perfil.
-> **[COPIA AQUI O CÓDIGO DA IMAGEM 131835_2 QUE ARRASTASTE LÁ EM CIMA NA VERSÃO INGLESA]**
+> <img width="1036" height="656" alt="Captura de ecrã 2026-08-11 131835" src="https://github.com/user-attachments/assets/ae8caff2-3ff5-4a24-8d91-9de887d1a85b" />
+
 
 ### 🛠️ Tecnologias Utilizadas
 * **Base de Dados:** SQLite
