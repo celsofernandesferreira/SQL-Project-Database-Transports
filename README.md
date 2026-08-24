@@ -35,7 +35,8 @@ Strict mathematical date filtering (`>=` and `<`) was also implemented to audit 
 
 #### 2. Customer Support & Operations (Helpdesk)
 The system anticipates operational needs, such as identifying customers transitioning age brackets (from Under-18 to Under-23), by cross-referencing their birth date with the card typology using a `JOIN`.
-> <img width="790" height="656" alt="passar de um sub 18 para um sub 23" src="https://github.com/user-attachments/assets/66d2a296-4fe5-4fb6-b613-237ad5cf01a3" />
+> <img width="1483" height="757" alt="sub-18" src="https://github.com/user-attachments/assets/2c3dafed-37f8-4523-a64f-d1dc1cc0cd6d" />
+
 
 Using advanced `LEFT JOIN` operations, the database can be audited to find structural anomalies, such as registered passengers who do not have any associated card or whose card is currently inactive.
 > <img width="786" height="658" alt="Descobrir Passageiro com cartao inativo" src="https://github.com/user-attachments/assets/7667c791-0136-4293-8a5b-6949f42ba941" />
@@ -97,8 +98,9 @@ Também foi implementada a filtragem matemática rigorosa por datas (`>=` e `<`)
 > <img width="789" height="652" alt="Carregamentos mes de janeiro" src="https://github.com/user-attachments/assets/f66d812b-4ace-4e8d-b362-9c2847eb878a" />
 
 #### 2. Apoio ao Cliente & Operações (Helpdesk)
-O sistema permite antecipar necessidades operacionais, como a identificação de clientes a transitar de escalão etário (de Sub-18 para Universitário/Sub-23), cruzando a data de nascimento com a tipologia do cartão através de um `JOIN`.
-> <img width="790" height="656" alt="passar de um sub 18 para um sub 23" src="https://github.com/user-attachments/assets/66d2a296-4fe5-4fb6-b613-237ad5cf01a3" />
+O sistema permite antecipar necessidades operacionais, como a identificação de clientes a transitar de escalão etário (de Sub-18 Sub-23), cruzando a data de nascimento com a tipologia do cartão através de um `JOIN`.
+> <img width="1483" height="757" alt="sub-18" src="https://github.com/user-attachments/assets/650338e4-1f3a-437c-b824-1b55ce5b4a16" />
+
 
 Através da utilização avançada de `LEFT JOIN`, é possível auditar a base de dados para encontrar anomalias estruturais, como passageiros registados no sistema que não possuem qualquer cartão associado ou cujo cartão se encontra inativo.
 > <img width="786" height="658" alt="Descobrir Passageiro com cartao inativo" src="https://github.com/user-attachments/assets/7667c791-0136-4293-8a5b-6949f42ba941" />
