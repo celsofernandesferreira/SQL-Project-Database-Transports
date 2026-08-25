@@ -71,4 +71,4 @@ From Clientes
 JOIN Cartoes
 ON Clientes.Id_Clientes = cartoes.Id_clientes
 Group By Name
-Order by N_de_cartoes;
+Order by Numero_de_cartoes;
