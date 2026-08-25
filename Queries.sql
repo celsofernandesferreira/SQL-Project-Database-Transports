@@ -12,7 +12,7 @@ From Bilhetes
 Where dia >= '2026-01-01' AND Dia < '2026-02-01';
 
 
--- 3. Auditoria de idades com cruzamento de dados
+-- 3. Perceber quais os Sub-18 que irao passar para Sub-23
 Select Name,Telefone,Tipologia
 From Clientes
 Join Cartoes
@@ -37,13 +37,13 @@ ORDER BY Valor DESC
 LIMIT 10;
 
 
--- 6. Correção segura de tipologias 
+-- 6. Usei este para Modificar um id_cartao para Sub-18 pois nao tinha nenhum 
 UPDATE Cartoes
 SET Tipologia = "Sub-18"
 Where Id_Cartao = "5015";
 
 
--- 7. Normalização de strings devido a existir um inteiro em vez de Inteiro
+-- 7. Normalização de strings devido a existir na coluna de desconto = "inteiro" em vez de "Inteiro"
 SELECT UPPER(Desconto) AS Bilhete_Normalizado, SUM(Valor) as Faturacao
 FROM Bilhetes
 GROUP BY UPPER(Desconto);
